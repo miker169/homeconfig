@@ -1,0 +1,7 @@
+setopt prompt_subst
+
+
+. ~/.zsh/prompt
+. ~/.zsh/aliases
+. ~/.zsh/git_aliases
+. ~/.zsh/functions
