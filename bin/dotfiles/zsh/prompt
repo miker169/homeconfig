@@ -9,3 +9,10 @@ local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_colo
 PROMPT='
 %~
 ${smiley}  %{$reset_color%}'
+
+RPROMPT='%{$fg[white]%} $(~/.rvm/bin/rvm-prompt)$(~/.zsh/bin/git-cwd-info)%{$reset_color%}'
+
+# Show completion on first TAB
+setopt menucomplete
+
+

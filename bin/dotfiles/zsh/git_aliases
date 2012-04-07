@@ -1,0 +1,9 @@
+
+git-branch-name() {
+        cat "$(git rev-parse --git-dir 2>/dev/null)/HEAD" | sed -e 's/^.*refs\/heads\///'
+}
+
+alias ga='git add -A'
+alias gap='ga -p'
+alias gau='git add -u'
+alias gbr='git branch -v'

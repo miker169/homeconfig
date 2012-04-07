@@ -13,7 +13,7 @@ alias lal='ls -lah'
 alias s='git status -sb $argv; return 0'
 alias vi='vim'
 
-alias rm='rm -i'
 alias sr="source ~/.zshrc && echo '.zshrc reloaded!'"
 alias add_alias="vim ~/.zsh/aliases"
+alias add_git_alias="vi ~/.zsh/git_aliases"
 alias homeconfig='git --git-dir=$HOME/.homeconfig.git/ --work-tree=$HOME'

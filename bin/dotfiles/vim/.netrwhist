@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/michaelrayner/bin/dotfiles/vim/vim'
+let g:netrw_dirhist_2='/Users/michaelrayner/bin/dotfiles/vim'
+let g:netrw_dirhist_3='/Users/michaelrayner/bin/dotfiles/vim/vim/vim'
+let g:netrw_dirhist_4='/Users/michaelrayner/bin/dotfiles/vim/vim'
+let g:netrw_dirhist_5='/Users/michaelrayner/bin/dotfiles/vim/vim/vim/vim'
